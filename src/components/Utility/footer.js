@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap"
-import "../css/style.css"
+import "../../css/style.css"
 const Footer = () =>{
     return (
         <div>

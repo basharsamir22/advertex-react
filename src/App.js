@@ -1,5 +1,5 @@
-import NavScroll from './components/nav'
-import Footer from './components/footer';
+import NavScroll from './components/Utility/nav'
+import Footer from './components/Utility/footer';
 import Home from './pages/Home';
 import About from './pages/About' 
 import Service from './pages/Services';

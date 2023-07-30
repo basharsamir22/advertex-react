@@ -4,6 +4,9 @@
     margin: 0;
 
 }
+a{
+    margin-left: 3px;
+}
 .lin:hover{
     color: #3022CD;
     border-bottom: 1px solid #3022CD;
@@ -14,11 +17,17 @@
 }
 .supportul{
     color: #000000;
-    border: 2px solid #3022CD;
+    border: 2px solid #0d30ce;
     background-color: #fff;
     border-radius: 5px;
+    padding :5px;
     font-size: 16px;
     margin-left: 10px;
+}
+.supportul:hover{
+    color: #ffffff;
+    border: 2px solid #0d30ce;
+    background-color: #0d30ce;
 }
 .start-head{
     display: flex;
@@ -84,14 +93,19 @@
 .title{
     margin: 20px;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title h1 {
     color: #0F7AD3;
 }
 .title p{
+    width: 400px;
     color: gray;
+    text-align: center;
 }
 .services{
     display: flex;
@@ -1115,7 +1129,6 @@
 @media (max-width: 480px) {
     .start-head {
         width: 480px;
-        height: 150px;
         padding-top: 30px;
     }
 

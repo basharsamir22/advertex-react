@@ -2,13 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Image } from "react-bootstrap";
-import "../css/style.css"
+import "../../css/style.css"
 import { Link } from 'react-router-dom';
 function NavScroll() {
     return (
-        <Navbar expand="lg" className=" shadow-sm">
+        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container fluid className='container mt-2'>
-                <Navbar.Brand href="#"><Image src='img/logoo.png'/></Navbar.Brand>
+                <Navbar.Brand>
+                    <Link to='/'><Image src='img/logoo.png'/></Link>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" style={{ marginLeft:'500px' }}>
                     <Nav
